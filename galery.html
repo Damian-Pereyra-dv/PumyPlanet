@@ -14,30 +14,36 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="icon" href="img/pumi_planet.png">
   </head>
 
   <body>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
+   
 
     <div class="container">
       <nav class="nav-main">
         <img src="./img/pumi_planet.png" alt="Icon Brnad" class="nav-brand" />
-        <ul class="nav-menu">
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./galery.html">Galeria</a></li>
-            <li><a href="./history.html">Historia</a></li>
-            <li><a href="./aboutme.html">Sobre Mi</a></li>
-            <li><a href="./contact.html">Contactanos</a></li>
-        </ul>
-        <ul class="nav-menu-right">
-          <li>
-            <a href="#"> <i class="fas fa-search"></i></a>
-          </li>
-        </ul>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+          <div class="container-fluid">
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link" href="./galery.html">Galeria</a>
+                <a class="nav-link" href="./aboutme.html">Sobre mi</a>
+                <a class="nav-link" href="./history.html">Historia</a>
+                <a class="nav-link" href="./contact.html">Contacto</a>
+                
+              </div>
+            </div>
+          </div>
+        </nav>
       </nav>
 
       <header class="showcase">
@@ -49,39 +55,37 @@
        
       </header>
 
-      <div class="news-cards">
-        <div>
-          <img src="/img/tanjiro_03.png" alt="" />
-        </div>
-        <div>
-          <img src="./img//Hollow_knight1.png" alt="" />
-         
-        </div>
-        <div>
-          <img src="./img//sakura_03.png" alt="" />
-        </div>
-        <div>
-          <img src="./img//tabby_cat1.png" alt="" />
-        </div>
-        <div>
-            <img src="./img//wonder_woman01.png" alt="" />
-          </div>
-          <div>
-            <img src="./img//teddybear01.png" alt="" />
-          </div>
-          <div>
-            <img src="./img//babyoda1.png" alt="" />
-          </div>
-          <div>
-            <img src="./img///Stitch1.png" alt="" />
-          </div>
-      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-3 col-lg-4">
+                <img src="./img/sakura_03.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-4">
+                <img src="./img/babyoda1.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-4">
+                <img src="./img/tanjiro_03.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-6">
+                <img src="./img/Hollow_knight1.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-6">
+                <img src="./img/Stitch1.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="./img/teddybear01.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="./img/tabby_cat1.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="./img/soldier01.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="./img/wonder_woman01.png" class="img-fluid" alt="image">
+            </div>
 
-      <div class="cards-banner-one">
-        <div class="content">
-       
         </div>
-      </div>
 
     
 
@@ -130,5 +134,7 @@
 
       
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
   </body>
 </html>

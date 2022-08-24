@@ -13,6 +13,7 @@ body {
   background-image: url(https://wallpapercave.com/uwp/uwp1712384.jpeg);
 
   font-family: "Jost", sans-serif;
+  text-shadow: 5px 5px 5px #000;
 }
 
 a {
@@ -114,8 +115,9 @@ ul {
 .showcase p {
   margin-bottom: 10px;
   color: khaki;
-  text-shadow: 5px 5px 50px #000;
+  text-shadow: 5px 5px 5px #000;
   font-size: 3rem;
+  text-align: center;
 
  /* -webkit-text-stroke: 2px rgb(253, 255, 122);*/
 }
@@ -157,11 +159,24 @@ ul {
 }
 
 .cards-banner-one {
+  
   width: 100%;
   height: 350px;
   background: url("../img/galaxiakawaii.jpg") no-repeat center center/cover;
   background-attachment: fixed;
   margin-bottom: 20px;
+}
+
+.cards-banner-one img {
+  display: block;
+  width: 50%;
+  height: 400px;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+
 }
 
 .cards-banner-one .content {
@@ -246,7 +261,7 @@ ul {
 }
 
 
-@media (max-width: 858px) {
+@media (max-width: 900px) {
   .menu-btn {
     display: block;
   }
@@ -296,7 +311,7 @@ ul {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .news-cards {
     grid-template-columns: 1fr;
   }
@@ -315,6 +330,17 @@ ul {
     gap: 20px;
     font-size: 14px;
   }
+  .nav-brand {
+    width: 300px;
+    padding-top: 10px;
+    margin: auto;
+  }
+
+  .carousel {
+    
+      width: 200px;
+      height: 200px;
+    }
 
  
 }
@@ -400,13 +426,15 @@ h1 {
 
   .showcase h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    padding-bottom: 4px;
   }
   .showcase h1 {
     text-align: center;
     font-size: 2rem;
     padding-bottom: 20px;
     padding-top: 30px;
+    text-shadow: 5px 5px 5px #000;
   }
 
  .nav-brand {
@@ -426,5 +454,22 @@ h1 {
 
 
   }
+
+}
+
+.carousel {
+margin: auto;
+  width: 70%;
+  height: 60%;
+}
+
+.navbar-nav a {
+
+  font-size: large;
+  color: #f2f2f2;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  font-size: large;
+  color: #f2f2f2;
 
 }
